@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>cellfor</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>-(UITableViewCell *)tableView:(UITableView *)tableView
+        cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+
+    // new cell
+    UITableViewCell *celNew = nil;
+    celNew = [tableView dequeueReusableCellWithIdentifier:@"&lt;#CellName#&gt;"];
+    if (!celNew) {
+        celNew = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault
+                                        reuseIdentifier:@"&lt;#CellName#&gt;"];
+    }
+    
+    // get record
+    &lt;#RecordClass#&gt; *rec&lt;#RecordName#&gt; = nil;
+            
+    // update
+    UILabel *lblBacktrace = (UILabel *)[celNew viewWithTag:1];
+    [lblBacktrace setText:[recStatus.lstBacktrace objectAtIndex:indexPath.row]];
+    
+    return celNew;
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>9D8C4B49-FA76-4A30-B41A-56CBBEEA49EA</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Cell for script</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Cell for script</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

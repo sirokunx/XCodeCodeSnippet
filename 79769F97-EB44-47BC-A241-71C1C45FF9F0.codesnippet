@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>section</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark -
+#pragma mark --- &lt;# Section #&gt;
+#pragma mark -
+/* #################################################################################################
+ *
+ *   &lt;# Section #&gt;
+ *
+ * ############################################################################################## */
+
+&lt;#method#&gt;</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>79769F97-EB44-47BC-A241-71C1C45FF9F0</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Comment and pragma marks of section</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Comment and pragma marks Section</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

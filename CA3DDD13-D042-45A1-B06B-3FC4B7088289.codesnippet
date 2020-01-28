@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>datasource</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark -
+#pragma mark --- data source
+#pragma mark -
+/* #################################################################################################
+ *
+ *   data source
+ *
+ * ############################################################################################## */
+
+#pragma mark number of
+/* *************************************************************************************************
+ *   number of rows
+ * ************************************************************************************************/
+
+-(NSInteger)tableView:(UITableView *)tableView
+numberOfRowsInSection:(NSInteger)section {
+    
+    return 1;
+}
+
+/* *************************************************************************************************
+ *   number of sections
+ * ************************************************************************************************/
+
+-(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    
+    return 1;
+}
+
+#pragma mark -
+#pragma mark cell for
+/* *************************************************************************************************
+ *   cell for row at index-path
+ * ************************************************************************************************/
+
+-(UITableViewCell *)tableView:(UITableView *)tableView
+        cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+
+    return nil;
+}
+
+#pragma mark -
+#pragma mark title for
+/* *************************************************************************************************
+ *   title for header
+ * ************************************************************************************************/
+
+ -(NSString *)tableView:(UITableView *)tableView
+titleForHeaderInSection:(NSInteger)section {
+    return @"";
+}
+
+/* *************************************************************************************************
+ *   title for footer
+ * ************************************************************************************************/
+
+ -(NSString *)tableView:(UITableView *)tableView
+titleForFooterInSection:(NSInteger)section {
+    return @"";
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>CA3DDD13-D042-45A1-B06B-3FC4B7088289</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>number of, cell for row title for etc...</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Data Source</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>sectioninit</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark -
+#pragma mark --- initialize
+#pragma mark -
+/* #################################################################################################
+ *
+ *   initialize
+ *
+ * ############################################################################################## */
+
+#pragma mark init
+/* *************************************************************************************************
+ *   init
+ * ************************************************************************************************/
+
+-(id)init {
+    
+    self = [super init];
+    if (!self) {
+        return self;
+    }
+    
+    // initialize(alloc) local value
+    
+    // initialize property
+    
+    return self;
+}
+
+#pragma mark dealloc
+/* *************************************************************************************************
+ *   dealloc
+ * ************************************************************************************************/
+
+-(void)dealloc {
+
+    
+    [super dealloc];
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>CE93D43F-0F4E-41D8-B8CF-460586BF534A</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Section of initialize</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Section Initialize</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

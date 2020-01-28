@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>process</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>/* -------------------------------------------------------------------------------------------------
+ *   &lt;# Method #&gt; - &lt;# Step #&gt; - &lt;# Progress #&gt;
+ * ---------------------------------------------------------------------------------------------- */
+
+&lt;#Method#&gt;</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>6A942FE5-0658-42DE-A95B-4B8763F9B96A</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Comment and pragma mark of process</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Comment and pragma marks process</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
